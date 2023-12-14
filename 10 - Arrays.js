@@ -33,28 +33,13 @@ console.log(marks_class_11[14]);
 console.log("The length of marks of class 12th list is", marks_class_11.length);
 
 marks_class_11[13] = 79;
-marks_class_11[0] = 09;
-
+marks_class_11[0] = 9;
 
 console.log(marks_class_11);
 console.log(typeof marks_class_11);
 
-let marks = [
-  81,
-  92,
-  38,
-  47,
-  58,
-  65,
-  72,
-  81,
-  49,
-  70,
-  null,
-  "Not present",
-  true,
-];
+let marks = [81, 92, 38, 47, 58, 65, 72, 81, 49, 70, null, "Not present", true];
 
 for (let i in marks) {
-    console.log("The marks of student number", i, "is", marks[i]);
+  console.log("The marks of student number", i, "is", marks[i]);
 }
