@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ul{
+    margin: 0;
+    padding: 15px 0 ;
+    display: flex;
+    background: grey;
+}
+ul li{
+    list-style : none;
+    margin : 0 23px ;
+} */
+/* element.style{
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+} */
