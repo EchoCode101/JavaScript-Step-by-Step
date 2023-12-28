@@ -461,20 +461,24 @@ He used a honeycomb.`,
   // Add more jokes to the array
 ];
 
+let index = Math.floor(Math.random() * jokes.length - 1);
+console.log(index);
+joke.innerHTML = jokes[index];
+
 // Function to display a random joke
-function displayRandomJoke() {
-  const jokeContainer = document.getElementById("joke");
-  const randomIndex = Math.floor(Math.random() * jokes.length);
-  const randomJoke = jokes[randomIndex];
+// function displayRandomJoke() {
+//   const jokeContainer = document.getElementById("joke");
+//   const randomIndex = Math.floor(Math.random() * jokes.length);
+//   const randomJoke = jokes[randomIndex];
 
-  // Check for minimum joke length
-  if (randomJoke.length >= 10) {
-    jokeContainer.textContent = randomJoke;
-  } else {
-    // If the joke is too short, try again
-    displayRandomJoke();
-  }
-}
+//   // Check for minimum joke length
+//   if (randomJoke.length >= 10) {
+//     jokeContainer.textContent = randomJoke;
+//   } else {
+//     // If the joke is too short, try again
+//     displayRandomJoke();
+//   }
+// }
 
-// Display a random joke on page load
-window.addEventListener("load", displayRandomJoke);
+// // Display a random joke on page load
+// window.addEventListener("load", displayRandomJoke);
