@@ -1,0 +1,15 @@
+{
+  "name": "javascript-projects",
+  "version": "1.0.0",
+  "description": "- In this repository, I will be uploading my JavaScript files as I get to learn this intuitive language. I am excited to explore its features and capabilities, and I believe this repository will serve as a great resource for my learning journey.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "pdf-creator-node": "^2.3.5"
+  }
+}
